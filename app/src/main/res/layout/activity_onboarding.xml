@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg_dark"
+    android:padding="28dp" android:gravity="center">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="🔥" android:textSize="56sp" android:layout_marginBottom="12dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="RoutineForge" android:textSize="32sp" android:textColor="@color/text_primary"
+        android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Build your perfect daily routine" android:textSize="15sp"
+        android:textColor="@color/text_secondary" android:layout_marginBottom="48dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Why are you starting this journey?" android:textSize="16sp"
+        android:textColor="@color/text_primary" android:textStyle="bold"
+        android:layout_marginBottom="12dp" android:layout_gravity="start"/>
+
+    <EditText android:id="@+id/et_why_started"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="I want to build better habits..." android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint" android:background="@drawable/bg_onboarding_input"
+        android:padding="16dp" android:textSize="15sp" android:maxLines="3"
+        android:inputType="textMultiLine" android:layout_marginBottom="32dp"/>
+
+    <Button android:id="@+id/btn_get_started"
+        android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Start My Journey" android:textSize="16sp" android:textColor="@color/white"
+        android:background="@drawable/bg_button_primary" android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView android:id="@+id/tv_skip"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Skip for now" android:textSize="14sp" android:textColor="@color/text_secondary"
+        android:paddingTop="8dp" android:paddingBottom="8dp"/>
+
+</LinearLayout>
