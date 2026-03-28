@@ -46,7 +46,10 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build APK
-        run: ./gradlew clean assembleDebug
+        run: |
+          pwd
+          ls -la
+          ./gradlew clean assembleDebug --stacktrace --warning-mode all
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
