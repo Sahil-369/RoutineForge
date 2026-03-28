@@ -21,7 +21,7 @@
                     android:layout_weight="1" android:orientation="vertical">
                     <TextView android:id="@+id/tv_greeting"
                         android:layout_width="wrap_content" android:layout_height="wrap_content"
-                        android:text="Good Morning ☀️" android:textSize="22sp"
+                        android:text="Good Morning" android:textSize="22sp"
                         android:textColor="@color/text_primary" android:textStyle="bold"/>
                     <TextView android:id="@+id/tv_today_date"
                         android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
 
             <TextView android:id="@+id/tv_empty"
                 android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:text="No tasks yet.\nTap + to add your first task 🚀"
+                android:text="No tasks yet.\nTap + to add your first task"
                 android:textSize="15sp" android:textColor="@color/text_secondary"
                 android:gravity="center" android:padding="40dp" android:visibility="gone"/>
 
