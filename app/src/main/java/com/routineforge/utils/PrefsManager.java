@@ -13,6 +13,7 @@ public class PrefsManager {
     private static final String KEY_TOTAL_DAYS_COMPLETED = "total_days_completed";
     private static final String KEY_TOTAL_TASKS_DONE = "total_tasks_done";
     private static final String KEY_NOTIF_CHANNEL_CREATED = "notif_channel_created";
+    private static final String KEY_CUSTOM_NOTIFICATION_SOUND = "custom_notification_sound";
 
     private final SharedPreferences prefs;
 
@@ -52,4 +53,7 @@ public class PrefsManager {
 
     public boolean isNotifChannelCreated() { return prefs.getBoolean(KEY_NOTIF_CHANNEL_CREATED, false); }
     public void setNotifChannelCreated(boolean val) { prefs.edit().putBoolean(KEY_NOTIF_CHANNEL_CREATED, val).apply(); }
+
+    public String getCustomNotificationSound() { return prefs.getString(KEY_CUSTOM_NOTIFICATION_SOUND, ""); }
+    public void setCustomNotificationSound(String uri) { prefs.edit().putString(KEY_CUSTOM_NOTIFICATION_SOUND, uri).apply(); }
 }

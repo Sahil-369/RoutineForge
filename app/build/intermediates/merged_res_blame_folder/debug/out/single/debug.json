@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "com.routineforge.app-merged_res-32:/layout_fragment_profile.xml.flat",
+        "source": "com.routineforge.app-main-34:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_flame.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_flame.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_button_outline.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_chevron_left.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_chevron_left.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_done_filled.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_done_filled.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_card.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_fragment_home.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_time_button.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_time_button.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/xml_file_paths.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_item_task.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/item_task.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_delete.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_day_complete.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_day_complete.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_stat_card.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_stat_card.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_edit_text.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_edit_text.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_add.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_notification.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_person.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_activity_onboarding.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_card2.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_card2.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_edit.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_link.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_link.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_start_button.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_start_button.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_goal_foreground.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_goal_foreground.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_back.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_fragment_profile.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_home.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_streak_badge.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_streak_badge.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_day_today.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_day_today.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_calendar.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_chevron_right.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_fragment_calendar.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/color_nav_selector.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/color/nav_selector.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_play.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_play.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_day_partial.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_day_partial.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_done.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_onboarding_input.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_onboarding_input.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_bg_button_primary.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/layout_activity_add_edit_task.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/layout/activity_add_edit_task.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_snooze.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_snooze.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-merged_res-32:/drawable_ic_done_outline.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.2.1/com.routineforge.app-main-34:/drawable/ic_done_outline.xml"
+    }
+]

@@ -6,10 +6,13 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.media.AudioAttributes;
+import android.net.Uri;
 import android.os.Build;
 
 import com.routineforge.models.Task;
 import com.routineforge.receivers.AlarmReceiver;
+import com.routineforge.utils.PrefsManager;
 
 import java.util.List;
 
@@ -23,13 +26,31 @@ public class AlarmScheduler {
 
     public static void createNotificationChannel(Context context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationManager nm = context.getSystemService(NotificationManager.class);
+            if (nm == null) return;
+
+            // Recreate channel to apply latest custom sound settings on supported devices.
+            if (nm.getNotificationChannel(CHANNEL_ID) != null) {
+                nm.deleteNotificationChannel(CHANNEL_ID);
+            }
+
             NotificationChannel channel = new NotificationChannel(
                     CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
             channel.setDescription("Daily task reminders");
             channel.enableVibration(true);
             channel.setShowBadge(true);
-            NotificationManager nm = context.getSystemService(NotificationManager.class);
-            if (nm != null) nm.createNotificationChannel(channel);
+
+            String soundUri = PrefsManager.getInstance(context).getCustomNotificationSound();
+            if (soundUri != null && !soundUri.isEmpty()) {
+                AudioAttributes audioAttributes = new AudioAttributes.Builder()
+                        .setUsage(AudioAttributes.USAGE_NOTIFICATION)
+                        .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                        .build();
+                channel.setSound(Uri.parse(soundUri), audioAttributes);
+            }
+
+            nm.createNotificationChannel(channel);
+            PrefsManager.getInstance(context).setNotifChannelCreated(true);
         }
     }
 

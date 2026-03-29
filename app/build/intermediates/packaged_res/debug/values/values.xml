@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_amber">#FF9800</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF6B35</color>
+    <color name="bg_card">#1A1A1A</color>
+    <color name="bg_card2">#222222</color>
+    <color name="bg_dark">#0D0D0D</color>
+    <color name="divider">#2A2A2A</color>
+    <color name="nav_bg">#111111</color>
+    <color name="nav_selected">#FF6B35</color>
+    <color name="nav_unselected">#666666</color>
+    <color name="streak_flame">#FF6B35</color>
+    <color name="text_hint">#666666</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_radius">14dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <string name="app_name">RoutineForge</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <style name="DarkAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorPrimary">@color/accent_orange</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="DarkEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="StatCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_stat_card</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="Theme.RoutineForge" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/accent_orange</item>
+        <item name="colorPrimaryVariant">@color/bg_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/nav_bg</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="editTextStyle">@style/DarkEditText</item>
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg_dark">
+
+    <!-- Toolbar -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="56dp"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="8dp" android:paddingEnd="16dp"
+        android:background="@color/bg_dark">
+
+        <ImageButton android:id="@+id/btn_back"
+            android:layout_width="40dp" android:layout_height="40dp"
+            android:src="@drawable/ic_back" android:background="@android:color/transparent"
+            android:padding="8dp"/>
+
+        <TextView android:id="@+id/tv_add_edit_title"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="New Task" android:textSize="19sp"
+            android:textColor="@color/text_primary" android:textStyle="bold"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="20dp">
+
+            <!-- Time -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Time" android:textSize="14sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <Button android:id="@+id/btn_time_picker"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="07:00" android:textSize="20sp" android:textColor="@color/accent_orange"
+                android:background="@drawable/bg_time_button" android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Task Name -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Task Name" android:textSize="14sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText android:id="@+id/et_task_name"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="e.g. Morning Workout, Study Spanish..."
+                android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+                android:background="@drawable/bg_edit_text" android:padding="14dp"
+                android:textSize="15sp" android:maxLines="1"
+                android:inputType="text" android:layout_marginBottom="20dp"/>
+
+            <!-- Description -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Description (optional)" android:textSize="14sp"
+                android:textColor="@color/text_secondary" android:layout_marginBottom="8dp"/>
+
+            <EditText android:id="@+id/et_task_description"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="Short note about this task..."
+                android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+                android:background="@drawable/bg_edit_text" android:padding="14dp"
+                android:textSize="15sp" android:maxLines="3"
+                android:inputType="textMultiLine" android:layout_marginBottom="20dp"/>
+
+            <!-- Deep Link -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Start Now Link (optional)" android:textSize="14sp"
+                android:textColor="@color/text_secondary" android:layout_marginBottom="4dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="YouTube, Duolingo, PDF, any app or URL"
+                android:textSize="12sp" android:textColor="@color/text_hint"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText android:id="@+id/et_task_deeplink"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="https://youtube.com/... or duolingo://"
+                android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+                android:background="@drawable/bg_edit_text" android:padding="14dp"
+                android:textSize="14sp" android:maxLines="2"
+                android:inputType="textUri" android:layout_marginBottom="32dp"/>
+
+            <!-- Save Button -->
+            <Button android:id="@+id/btn_save_task"
+                android:layout_width="match_parent" android:layout_height="54dp"
+                android:text="Add Task" android:textSize="16sp" android:textColor="@color/white"
+                android:background="@drawable/bg_button_primary" android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

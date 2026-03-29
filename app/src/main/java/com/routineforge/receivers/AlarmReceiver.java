@@ -7,9 +7,12 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.PowerManager;
 
 import androidx.core.app.NotificationCompat;
+
+import com.routineforge.utils.PrefsManager;
 
 import com.routineforge.MainActivity;
 import com.routineforge.R;
@@ -86,8 +89,14 @@ public class AlarmReceiver extends BroadcastReceiver {
                 .setContentIntent(mainPi)
                 .addAction(R.drawable.ic_done, "✓ Done", donePi)
                 .addAction(R.drawable.ic_snooze, "⏰ Snooze 10m", snoozePi)
-                .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-                .setDefaults(Notification.DEFAULT_ALL);
+                .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
+
+        String soundUri = PrefsManager.getInstance(context).getCustomNotificationSound();
+        if (soundUri != null && !soundUri.isEmpty()) {
+            builder.setSound(Uri.parse(soundUri));
+        } else {
+            builder.setDefaults(Notification.DEFAULT_ALL);
+        }
 
         NotificationManager nm = (NotificationManager)
                 context.getSystemService(Context.NOTIFICATION_SERVICE);
